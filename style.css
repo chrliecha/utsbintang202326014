@@ -1,0 +1,617 @@
+/* Reset dan font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #6a5acd; /* slateblue */
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #dcdcdc;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #e6e6fa; /* lavender */
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  color: #483d8b; /* darkslateblue */
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #555;
+}
+
+.hero .btn {
+  background-color: #6a5acd;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 3px 6px rgba(106, 90, 205, 0.5);
+  transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+  background-color: #5942b8;
+}
+
+/* Produk Section */
+.produk {
+  background-color: white;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.produk h2 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  color: #483d8b;
+}
+
+.produk-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.produk-item {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  padding: 1rem;
+  max-width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.produk-item:hover {
+  transform: translateY(-8px);
+}
+
+.produk-item img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.produk-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #4b0082; /* indigo */
+}
+
+.produk-item p {
+  font-weight: 700;
+  color: #6a5acd;
+}
+
+/* Perusahaan Section */
+.perusahaan {
+  background-color: #f0f0ff;
+  padding: 3rem 2rem;
+  max-width: 600px;
+  margin: 3rem auto;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(106, 90, 205, 0.15);
+  text-align: center;
+}
+
+.perusahaan h2 {
+  color: #6a5acd;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.info-box p {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  background-color: #6a5acd;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+/* beranda */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background-color: #8e44ad;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem 2rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f0fa;
+}
+
+.hero-text {
+  flex: 1 1 300px;
+  max-width: 500px;
+  padding: 1rem;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #6c3483;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.btn {
+  background-color: #8e44ad;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #732d91;
+}
+
+.hero-img {
+  flex: 1 1 300px;
+  max-width: 500px;
+  padding: 1rem;
+}
+
+.hero-img img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.back-home {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #555;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.back-home:hover {
+  background: #333;
+}
+
+footer {
+  background-color: #8e44ad;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/*transaksi*/
+/* Reset dan font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Header */
+header {
+  background-color: #4b0082;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.7rem;
+}
+
+header nav a {
+  color: white;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #d8bfd8;
+}
+
+/* Section Transaksi Detail */
+.transaksi-detail {
+  max-width: 800px;
+  background-color: white;
+  margin: 3rem auto;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(75, 0, 130, 0.1);
+}
+
+.transaksi-detail h2 {
+  color: #4b0082;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #4b0082;
+  padding-bottom: 0.5rem;
+}
+
+/* Table umum */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #eee;
+  color: #4b0082;
+  font-weight: 700;
+}
+
+tfoot th {
+  font-size: 1.1rem;
+  background-color: #4b0082;
+  color: white;
+  text-align: right;
+}
+
+tfoot th[colspan="3"] {
+  text-align: right;
+}
+
+/* Produk table spesifik */
+.produk-table th, .produk-table td {
+  text-align: center;
+}
+
+.produk-table tbody tr:hover {
+  background-color: #f3e5f5;
+}
+
+/* Footer */
+footer {
+  background-color: #4b0082;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+/* kontak*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #663399;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+header nav a {
+  color: white;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #dda0dd;
+}
+
+/* Section Kontak */
+.kontak-section {
+  max-width: 600px;
+  background-color: white;
+  margin: 3rem auto;
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(102, 51, 153, 0.15);
+}
+
+.kontak-section h2 {
+  color: #663399;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.kontak-info p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* Form */
+.kontak-form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.kontak-form label {
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.kontak-form input,
+.kontak-form textarea {
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 1.2rem;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  resize: vertical;
+  transition: border-color 0.3s;
+}
+
+.kontak-form input:focus,
+.kontak-form textarea:focus {
+  border-color: #663399;
+  outline: none;
+}
+
+.kontak-form button {
+  padding: 0.8rem;
+  background-color: #663399;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.kontak-form button:hover {
+  background-color: #532a7a;
+}
+
+/* Footer */
+footer {
+  background-color: #663399;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+/* produk*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Header */
+header {
+  background-color: #4b0082;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.7rem;
+}
+
+header nav a {
+  color: white;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #d8bfd8;
+}
+
+/* Produk List Section */
+.produk-list {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.produk-list h2 {
+  text-align: center;
+  color: #4b0082;
+  margin-bottom: 2rem;
+}
+
+/* Grid Produk */
+.grid-produk {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.produk-item {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(75, 0, 130, 0.1);
+  text-align: center;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.produk-item:hover {
+  transform: translateY(-8px);
+}
+
+.produk-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.produk-item h3 {
+  color: #4b0082;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.produk-item p {
+  font-weight: 700;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #4b0082;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+.produk-item {
+  text-decoration: none;
+  color: inherit;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(75, 0, 130, 0.1);
+  text-align: center;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.produk-item:hover {
+  transform: translateY(-8px);
+}
